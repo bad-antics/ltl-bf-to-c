@@ -1,0 +1,15 @@
+// ltl-bf-to-c/main.ltl
+//
+// Brainfuck-to-C transpiler with loop-pattern matching.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-bf-to-c v0.1.0")
+    io::println("Brainfuck-to-C transpiler with loop-pattern matching.")
+    0
+}
