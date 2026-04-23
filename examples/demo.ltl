@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_bf_to_c
+
+import std::io
+use ltl_bf_to_c as lib
+
+fn main() {
+    io::println("ltl_bf_to_c demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
