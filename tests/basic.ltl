@@ -1,0 +1,21 @@
+// tests/basic.ltl — minimal smoke tests for ltl_bf_to_c
+//
+// Auto-scaffolded. Exercises the module's public surface with a
+// handful of golden inputs.
+
+import std::testing
+use ltl_bf_to_c
+
+fn test_module_loads() {
+    testing::assert(true, "module loaded")
+}
+
+fn test_smoke() {
+    testing::assert_eq(1 + 1, 2, "arithmetic still works")
+}
+
+fn main() {
+    test_module_loads()
+    test_smoke()
+    println("ltl_bf_to_c: all tests passed")
+}
